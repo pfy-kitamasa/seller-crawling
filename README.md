@@ -5,7 +5,13 @@
 https://github.com/gocolly/colly
 
 ## Database
-- postgresql 13
+- https://github.com/ent/ent
+  - 
 - 
 ### マイグレーション
-https://github.com/k0kubun/sqldef
+
+- テーブル追加
+```
+go run entgo.io/ent/cmd/ent init XXXX
+```
+
