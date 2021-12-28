@@ -1,0 +1,10 @@
+version: 1
+packages:
+  - path: "../go/crawler/repository"
+    name: "repository"
+    engine: "postgresql"
+    schema: "./initdb/20211227_164243_schema.sql"
+    queries: "query.sql"
+overrides:
+  - db_type: "pg_catalog.numeric"
+    go_type: "float64"
